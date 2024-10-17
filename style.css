@@ -1,0 +1,28 @@
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+.Logo {
+    margin: 20px;
+    font-size: 24px;
+    margin-right: auto;
+    font-weight: bold;
+    
+}
