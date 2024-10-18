@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Roboto";
     font-size: 18px;
+    flex: none;
 }
 
 .header, .first {
@@ -13,8 +14,8 @@
     color: #F9FAF8;
     display: flex;
     justify-content: center;
-    padding-block: 70px;
     gap:35px;
+    align-items: center;
 }
 
 .sign-up {
@@ -29,11 +30,13 @@
 
 .sign-text {
     margin-left: 20px;
+    width: 560px;
 }
 
 .hero {
     font-size: 48px;
     font-weight: 900;
+    
 }
 
 img {
@@ -49,19 +52,21 @@ a {
 
 .boxes{
     display: flex;
-    height: 150px;
+    height: 156px;
     justify-content: center;
     gap: 160px;
 }
 
 #b1, #b2, #b3, #b4 {
     border: #3882F6 solid;
-    width: 150px;
+    width: 149.33px;
     border-radius: 15px;
+    flex: none;
 }
 
 h2, .t2header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 39px;
     color: #1F2937;
     font-weight: 900;
@@ -72,9 +77,22 @@ h2, .t2header {
     display: flex;
     justify-content: center;
     gap: 160px;
+    padding-bottom: 20px;
+    padding-top: 8px;
 }
 
 .txtsub {
     width: 156px;
     text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.first, .second, .third, .fourth {
+    height: 400px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
 }
